@@ -328,13 +328,14 @@ text-transform: capitalize;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     
 }
 .form-footer{
     display: flex;
+    gap 24px;
 }
 .form-footer-label{
     gap:24px;
