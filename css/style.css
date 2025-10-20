@@ -585,8 +585,8 @@ ul, ol{
     border-color: #4D5AE5;
     
 }
-.input-name + .modal-icon-name:focus,
-.input-name + .modal-icon-name:hover{
+input:focus + label > .modal-icon-name,
+input:hover + label > .modal-icon-name{
     fill: #4D5AE5;
 }
 .modal-icon-name{
@@ -630,8 +630,8 @@ ul, ol{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
-    display: flex;
-    gap:8px;
+    /*display: flex;
+    gap:8px;*/
 }
 .checkbox-text{
     display: inline-flex;
