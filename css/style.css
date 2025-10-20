@@ -581,7 +581,7 @@ ul, ol{
 }
 .input-name:focus{
     border-color: #4D5AE5;
-    sss
+    
 }
 .input-name + .modal-icon-name:focus,
 .input-name + .modal-icon-name:hover{
