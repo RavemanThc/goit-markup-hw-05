@@ -322,6 +322,7 @@ text-transform: capitalize;
     fill: #f4f4fd;
 }
 .form-footer-container{
+    margin-left: 80px;
 
 }
 .form-footer-text{
@@ -376,7 +377,7 @@ text-transform: capitalize;
 }
 .footer-form-icon{
     margin-left: 16px;
-    
+    fill: #fff;
 }
 .visually-hidden {
 position: absolute;
@@ -629,7 +630,8 @@ ul, ol{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
-    
+    display: flex;
+    gap:8px;
 }
 .checkbox-text{
     width: 16px;
@@ -640,6 +642,7 @@ ul, ol{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    
 }
 
 input:checked + label > span {
@@ -666,5 +669,6 @@ input:checked + label > span {
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
