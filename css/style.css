@@ -335,7 +335,7 @@ text-transform: capitalize;
 }
 .form-footer{
     display: flex;
-    gap 24px;
+    gap:24px;
 }
 .form-footer-label{
     gap:24px;
