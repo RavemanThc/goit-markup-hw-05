@@ -585,8 +585,8 @@ ul, ol{
     border-color: #4D5AE5;
     
 }
-.label input:focus + .modal-icon-name,
-.label input:hover + .modal-icon-name{
+.input-name:hover > .modal-icon-name,
+.input-name:focus > .modal-icon-name{
     fill: #4D5AE5;
 }
 .modal-icon-name{
