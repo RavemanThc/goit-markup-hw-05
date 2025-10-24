@@ -616,9 +616,7 @@ ul, ol{
     
     margin-bottom: 24px;
 }
-.checkbox-form{
-    
-}
+
 .checkbox{
     font-size: 12px;
     line-height: 1.17;
@@ -638,14 +636,12 @@ ul, ol{
     fill: transparent;
 }
 
-input:checked + label > span {
+input:checked + .checkbox > .checkbox-text {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
 }
-.modal-icon-checkbox{
 
-}
 .privacyweb{
     color:#4d5ae5;
 }
@@ -694,3 +690,15 @@ input:checked + label > span {
     visibility: visible; 
     pointer-events: auto;
 }
+@media screen and (min-width: 900px) {
+  .hero {
+        background-color: #2E2F42;
+    padding: 188px 0;
+    max-width: 1440px;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7) ), url(../images/people-office-bckg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0 auto;
+}
+  }
